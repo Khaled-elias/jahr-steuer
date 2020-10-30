@@ -1,0 +1,157 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+body{
+    background: rgba(224, 164, 123, 0.7);
+    color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+  
+   background: rgba(19, 119, 89, 0.7);
+    
+}
+header h1 {
+    padding-left: 6em;
+}
+
+
+
+nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 90%;
+    
+}
+ul{
+    display: flex;
+ }
+li{
+    list-style: none;
+   
+
+}
+nav a {
+    text-decoration: none;
+    margin: 0 1em;
+    color: white;
+}
+
+main{
+    text-align: center;
+    border: 2px solid rgba(19, 119, 89, 0.7) ;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 7em;
+    box-shadow: 2px 2px 2px 1px rgba(19, 119, 89, 0.602);
+    
+}
+ .h11 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+   
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+   
+}
+main div{
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+button{
+    background: rgba(19, 119, 89, 0.602);
+   color:white;
+    height: 2em;
+    font-size: 14px;
+    margin-top: 1em;
+
+}
+button:hover{
+    color: rgba(19, 119, 89, 0.602);
+   background:rgba(224, 164, 123, 0.7) ;
+} 
+#mylist{
+    width: 6em;
+    margin-bottom: 1em;
+}
+h4{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+#dd1 ,#dd2{
+    margin: 0;
+}
+
+#erge{
+    color: rgba(19, 119, 89, 0.602);
+}
+
+img{
+    height: 10em;
+}
+
+
+
+
+#error2{
+    color: red;
+    text-decoration: underline;
+    font-size: 2em;
+    
+}
+
+/* __________footer */
+
+
+
+
+footer{
+    margin-left: 38.5%;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 40px;
+    height: 28px;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+    padding-top: 12px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+    color: #FFF;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+
+    
